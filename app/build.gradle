@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace 'com.example.grandmavideoplayer'
-    compileSdk 34
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.example.grandmavideoplayer"
@@ -40,6 +40,5 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.1.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
 
-    // Optional immersive helpers
     implementation 'androidx.activity:activity-ktx:1.9.2'
 }
